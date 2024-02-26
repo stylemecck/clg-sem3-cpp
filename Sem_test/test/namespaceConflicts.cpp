@@ -1,14 +1,14 @@
 #include<iostream>
-
+using namespace std;
 namespace A {
     void display(){
-        std::cout<<"Function display() from Namespace A"<<std::endl;
+        cout<<"Function display() from Namespace A"<<endl;
     }
 }
 
 namespace B {
     void display(){
-        std::cout<<"Function display() from namespace B"<<std::endl;
+        cout<<"Function display() from namespace B"<<endl;
     }
 }
 int main(){
